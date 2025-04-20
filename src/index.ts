@@ -21,3 +21,6 @@ export const takeCare = (name: string) => {
 }
 
 //
+
+// Test cases
+
