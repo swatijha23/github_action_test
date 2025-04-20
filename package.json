@@ -1,6 +1,6 @@
 {
   "name": "@testnewrelic/github_action_test",
-  "version": "0.0.0-dev",
+  "version": "0.0.1-dev",
   "description": "github action test release to npm",
   "main": "index.js",
   "scripts": {
