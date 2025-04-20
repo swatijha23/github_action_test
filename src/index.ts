@@ -13,3 +13,11 @@ export const farewell = (name: string) => {
 export const welcome = (name: string) => {
   return `Welcome ${name}`;
 }
+export const seeYouLater = (name: string) => {
+  return `See you later ${name}`;
+}
+export const takeCare = (name: string) => {
+  return `Take care ${name}`;
+}
+
+//
