@@ -1,0 +1,31 @@
+{
+  "name": "@testnewrelic/github_action_test",
+  "version": "0.0.0-dev",
+  "description": "github action test release to npm",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swatijha23/github_action_test.git"
+  },
+  "author": "Swati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swatijha23/github_action_test/issues"
+  },
+  "homepage": "https://github.com/swatijha23/github_action_test#readme",
+  "devDependencies": {
+    "semantic-release": "^24.2.3",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
