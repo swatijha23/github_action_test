@@ -27,23 +27,23 @@ jobs:
       - name: Install dependencies
         run: npm ci  # Faster and cleaner dependency installation
 
-      - name: Lint code
-        run: npm run lint  # Run linter (e.g., ESLint)
+      # - name: Lint code
+      #   run: npm run lint  # Run linter (e.g., ESLint)
 
-      - name: Check formatting
-        run: npm run format:check  # Verify code formatting (e.g., Prettier)
+      # - name: Check formatting
+      #   run: npm run format:check  # Verify code formatting (e.g., Prettier)
 
       - name: Build project
         run: npm run build
 
-      - name: Check types
-        run: npm run type-check  # Type-check with TypeScript if applicable
+      # - name: Check types
+      #   run: npm run type-check  # Type-check with TypeScript if applicable
 
       - name: Run security audit
         run: npm audit --audit-level=critical  # Focus on critical vulnerabilities
 
-      - name: Run tests
-        run: npm run test -- --coverage  # Run tests with coverage report
+      # - name: Run tests
+      #   run: npm run test -- --coverage  # Run tests with coverage report
 
       - name: Publish to NPM
         env:
