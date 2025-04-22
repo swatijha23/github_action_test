@@ -247,6 +247,6 @@
   },
   "keywords": [],
   "release": {
-    "branches": ["main", "release/*", "refs/tags/*"]
+    "branches": ["refs/tags/*"]
   }
 }
