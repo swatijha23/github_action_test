@@ -7,9 +7,9 @@ on:
 
 jobs:
   publish:
-    uses: sswatijha23/github_action_test/blob/main/.github/workflows/shared-publish.yml@<ref> # Replace with the shared workflow's repository and ref
+    uses: ./github/workflows/shared-publish.yml # Reference the shared workflow locally
     with:
       node-version: 'lts/*' # Specify the Node.js version
     secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Pass the NPM token for authentication
+      npm-token: ${{ secrets.NPM_TOKEN }} # Pass the NPM token for authentication
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub token for accessing the repository
