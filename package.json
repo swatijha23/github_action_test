@@ -245,5 +245,8 @@
     "yargs-parser": "^21.1.1",
     "yoctocolors": "^2.1.1"
   },
-  "keywords": []
+  "keywords": [],
+  "release": {
+    "branches": ["main", "release/*", "refs/tags/*"]
+  }
 }
