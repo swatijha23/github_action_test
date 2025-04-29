@@ -1,15 +1,15 @@
-name: Use Shared Publish
+# name: Use Shared Publish
 
-on:
-  push:
-    tags:
-      - 'v*.*.*' # Trigger only on semantic version tags
+# on:
+#   push:
+#     tags:
+#       - 'v*.*.*' # Trigger only on semantic version tags
 
-jobs:
-  publish:
-    uses: .//.github/workflows/Publish.yml@main # Reuse the Publish workflow
-    with:
-      node-version: 'lts/*' # Specify the Node.js version
-    secrets:
-      npm-token: ${{ secrets.NPM_TOKEN }} # Pass the NPM token for authentication
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub token for accessing the repository
+# jobs:
+#   publish:
+#     uses: .//.github/workflows/Publish.yml@main # Reuse the Publish workflow
+#     with:
+#       node-version: 'lts/*' # Specify the Node.js version
+#     secrets:
+#       npm-token: ${{ secrets.NPM_TOKEN }} # Pass the NPM token for authentication
+#       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub token for accessing the repository
