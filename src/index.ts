@@ -19,4 +19,13 @@ export const seeYouLater = (name: string) => {
 export const takeCare = (name: string) => {
   return `Take care ${name}`;
 }
+export const haveAGoodDay = (name: string) => {
+  return `Have a good day ${name}`;
+}
+export const haveANiceDay = (name: string) => {
+  return `Have a nice day ${name}`;
+}
+export const haveAFunDay = (name: string) => {
+  return `Have a fun day ${name}`;
+}
 

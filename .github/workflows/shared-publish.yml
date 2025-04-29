@@ -1,17 +1,6 @@
 name: Shared Publish
 description: |
-  This workflow is designed to build and publish a Node.js package to NPM.
-  It includes steps for setting up Node.js, installing dependencies, building the project,
-  running security audits, and publishing the package.
-  The workflow is triggered on pull requests and can be reused in other workflows.
-  It also includes a semantic release step to automate versioning and changelog generation.
-  The workflow uses the `semantic-release` package to handle versioning and publishing.
-  The workflow is designed to be reusable and can be called from other workflows.
-  It accepts inputs for the Node.js version and audit level, allowing customization for different projects.
-  The workflow also includes permissions for writing to contents, packages, issues, and pull requests.
-  The workflow is designed to be used in a CI/CD pipeline for Node.js projects.
-  It is a good practice to use this workflow in conjunction with other workflows for testing and linting.
-
+  A reusable workflow for publishing Node.js packages to NPM. This workflow includes steps for setting up Node.js, installing dependencies, running security audits, and publishing the package. It can be reused in other workflows to maintain consistency and reduce duplication.
 on:
   workflow_call:
     inputs:
