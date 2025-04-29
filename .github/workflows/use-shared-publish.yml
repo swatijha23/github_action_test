@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish:
-    uses: ./github/workflows/shared-publish.yml # Reference the shared workflow locally
+    uses: .//.github/workflows/Publish.yml@main # Reuse the Publish workflow
     with:
       node-version: 'lts/*' # Specify the Node.js version
     secrets:
