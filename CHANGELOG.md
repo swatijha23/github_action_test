@@ -1,3 +1,11 @@
+# [5.0.0](https://github.com/swatijha23/github_action_test/compare/v4.0.0...v5.0.0) (2025-04-29)
+
+
+### Features
+
+* demo ([52ef0ee](https://github.com/swatijha23/github_action_test/commit/52ef0eebbaf3ff6893b8f09036e2e4cc15ac9e39))
+* demo ([4fcc534](https://github.com/swatijha23/github_action_test/commit/4fcc53400a9c3866e84fd42b6d13ab63cf214ff0))
+
 ## [3.0.1](https://github.com/swatijha23/github_action_test/compare/v3.0.0...v3.0.1) (2025-04-22)
 
 ### Bug Fixes
