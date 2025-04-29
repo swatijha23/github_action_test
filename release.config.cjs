@@ -1,16 +1,28 @@
 module.exports = {
-    branches: [
-      { name: 'main' },               // Main branch for releases
-      { name: 'v*.*.*', prerelease: true }  // Allow tag-driven releases with prerelease status
-    ],
-    plugins: [
+  branches: [
+    { name: 'main' },
+    { name: 'v*.*.*', prerelease: true },
+  ],
+  plugins: [
+    [
       '@semantic-release/commit-analyzer',
-      '@semantic-release/release-notes-generator',
-      '@semantic-release/changelog',
-      '@semantic-release/npm',
-      '@semantic-release/github',
-      '@semantic-release/git',
+      {
+        preset: 'conventionalcommits',
+        releaseRules: [
+          { type: 'feat', release: 'major' },
+          { type: 'fix', release: 'patch' },
+          { type: 'perf', release: 'patch' },
+          { type: 'BREAKING CHANGE', release: 'major' },
+        ],
+        parserOpts: {
+          noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES'],
+        },
+      },
     ],
-    preset: 'conventionalcommits',
-    changelogFile: 'CHANGELOG.md',
-  };
+    '@semantic-release/release-notes-generator',
+    '@semantic-release/changelog',
+    '@semantic-release/npm',
+    '@semantic-release/github',
+    '@semantic-release/git',
+  ],
+};
