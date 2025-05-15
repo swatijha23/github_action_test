@@ -31,4 +31,7 @@ export const haveAFunDay = (name: string) => {
 export const haveAGreatDay = (name: string) => {
   return `Have a great day ${name}`;
 }
+export const haveASafeTrip = (name: string) => {
+  return `Have a safe trip ${name}`;
+}
 
