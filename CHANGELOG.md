@@ -1,3 +1,20 @@
+# [6.0.0](https://github.com/swatijha23/github_action_test/compare/v5.0.0...v6.0.0) (2025-05-15)
+
+
+### Bug Fixes
+
+* Updtaed publish.yml file ([5773a18](https://github.com/swatijha23/github_action_test/commit/5773a183c022b8c1185c96e3b51a2c42f71c8d43))
+* Updtaed publish.yml file ([d1e9b82](https://github.com/swatijha23/github_action_test/commit/d1e9b8250ffd6837dd80240a1e6336f0ed4ab27c))
+* Updtaed publish.yml file ([00aa036](https://github.com/swatijha23/github_action_test/commit/00aa036108910f46b710d57af53ee2f1d6e2c950))
+* Updtaed publish.yml file ([870468d](https://github.com/swatijha23/github_action_test/commit/870468df1c7879c6ab5a2445d3e23c758911a296))
+* Updtaed publish.yml file ([531936d](https://github.com/swatijha23/github_action_test/commit/531936dd7e1ac6475143a7c55620ae5c3cd4db63))
+* Updtaed publish.yml file ([9dea176](https://github.com/swatijha23/github_action_test/commit/9dea1767e5fb800833f9b3c2906efa3ec18a46df))
+
+
+### Features
+
+* Test workflow ([732614a](https://github.com/swatijha23/github_action_test/commit/732614ae3107c0cf3291de8e276d51f7c49e2b1d))
+
 # [5.0.0](https://github.com/swatijha23/github_action_test/compare/v4.0.0...v5.0.0) (2025-04-29)
 
 
