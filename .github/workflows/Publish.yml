@@ -26,7 +26,7 @@ on:
       - closed
   push:
     branches:
-      - stable
+      - main
 
 jobs:
   publish_and_deploy:
