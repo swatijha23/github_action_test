@@ -52,7 +52,9 @@ jobs:
 
       - name: Get Package Version
         id: package-version
-        run: echo "PACKAGE_VERSION=$(node -p \"require('./package.json').version\")" >> $GITHUB_ENV
+        run: |
+          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> $GITHUB_ENV
 
       - name: Run security audit
         if: ${{ inputs.publish-to-npm || github.event_name == 'push' }}
