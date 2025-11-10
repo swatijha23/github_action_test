@@ -33,7 +33,7 @@ on:
 
   pull_request:
     branches:
-    - stable
+    - main
     types:
     - closed
 
